@@ -5,5 +5,5 @@
 ```python
 def rotLeft(a, d):
     n = len(a)
-    return a[d:n] + a[0:d]
+    return a[d%n:n] + a[0:d%n]
 ```
