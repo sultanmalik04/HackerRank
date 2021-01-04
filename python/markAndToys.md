@@ -11,6 +11,6 @@ def maximumToys(prices, k):
     while prices[i] < k and k > 0:
         k -= prices[i]
         i += 1
-        No_of_Toys += 1
+        No_of_gifts += 1
     return No_of_gifts
 ```
